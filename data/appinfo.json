@@ -1,0 +1,8 @@
+{
+  "id": "vn.sparc.esca.settings",
+  "title": "Settings",
+  "type": "native",
+  "main": "/usr/bin/esca-settings",
+  "user": "weston",
+  "removable": false
+}

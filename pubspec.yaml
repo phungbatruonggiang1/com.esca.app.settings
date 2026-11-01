@@ -1,0 +1,29 @@
+name: esca_settings
+description: ESCA Settings -- Wi-Fi, Ethernet and Bluetooth, more to come.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dbus: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: BeVietnamPro
+      fonts:
+        - asset: fonts/BeVietnamPro-Regular.ttf
+        - asset: fonts/BeVietnamPro-Medium.ttf
+          weight: 500
+        - asset: fonts/BeVietnamPro-SemiBold.ttf
+          weight: 600
+        - asset: fonts/BeVietnamPro-Bold.ttf
+          weight: 700
